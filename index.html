@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+	<link rel="shrotcut icon" type="img/x-icon" href="li.png">
+	<title></title>
+</head>
+<body>
+	<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		img {
+			width: 150px;
+			height: 150px;
+		  border-radius: 50%;
+		}
+		.logo {
+			text-align: center;
+		}
+		body{
+			background-image: url(https://www.infomediaire.net/wp-content/uploads/2021/06/Tour-Mohammed-VI.jpg);
+			background-repeat: no-repeat;
+			background-size: cover;
+			background-attachment: fixed;
+			overflow: hidden;
+		}
+		#box{
+			position: relative;
+			margin: auto;
+			width: 50%;
+			border-radius: 5%;
+			background-color: rgba(0, 0, 0, 0.1);
+      height: 550px;
+      margin-top: 2%;
+		}
+		.inside{
+			justify-content: space-around;
+
+		}
+		.inside input{
+            background: none;
+            border: none;
+            border-bottom: 1px solid blue ;
+            width: 75%;
+            margin: 2%;
+            height: 100%;
+            color: white;
+            outline: none;
+		}
+		.inside h1{
+			color: blue;
+			text-align: center;
+			font-family: sans-serif;
+		}
+		label{
+			color: white;
+			margin: 3%;
+		}
+		button {
+			background-color: white;
+			color: blue;
+			border-radius: 25px;
+			width: 75%;
+			height: 50px;
+			cursor: pointer;
+			border: none;
+		  text-align: center;		
+			overflow: hidden;
+			font-weight: 700;
+			MARGIN-top: 5%;
+			margin-left: 15%;
+		}
+		.inside i{
+			margin-left: 20%;
+			margin-top: 5%;
+			display: flex;
+		}
+				button:hover{
+			color: white;
+			background-color: blue;
+		}
+		.fa-solid {
+			color: blue;
+		}
+	</style>
+  <div id="box">
+  	<div class="logo">
+  	<img src="li.png">
+  </div>
+  	<div class="inside">
+  		<h1>Log In</h1>
+  		<label>Name :</label><br>
+  		<i class="fa-solid fa-user"><input type="text" name=""></i><br>
+        <label>Password :</label><br>
+  		<i class="fa-solid fa-lock"><input type="password" name=""></i>
+  	</div>
+  		<button type="submit" value="submit">Log in</button>
+  	
+  </div>
+</body>
+</html>
